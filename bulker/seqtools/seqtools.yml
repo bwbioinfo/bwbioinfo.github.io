@@ -1,0 +1,7 @@
+manifest:
+  name: seqtools
+  version: 1.0.0
+  commands:
+  - command: samtools
+    docker_image: docker://ghcr.io/bwbioinfo/samtools-docker-cwl:latest
+    docker_command: samtools
