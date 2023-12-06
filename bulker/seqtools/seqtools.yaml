@@ -5,3 +5,9 @@ manifest:
   - command: samtools
     docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
     docker_command: samtools
+  - command: bamstats
+    docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
+    docker_command: bamstats
+  - command: multimerge
+    docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
+    docker_command: multimerge
