@@ -11,3 +11,6 @@ manifest:
   - command: multimerge
     docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
     docker_command: multimerge
+  - command: seqkit
+    docker_image: ghcr.io/bwbioinfo/seqkit-docker-cwl:latest
+    docker_command: seqkit
