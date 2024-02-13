@@ -14,3 +14,6 @@ manifest:
   - command: seqkit
     docker_image: ghcr.io/bwbioinfo/seqkit-docker-cwl:latest
     docker_command: seqkit
+  - command: clairs
+    docker_image: hkubal/clairs:latest
+    docker_command: /opt/bin/run_clairs
