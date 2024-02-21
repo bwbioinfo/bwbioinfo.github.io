@@ -17,3 +17,6 @@ manifest:
   - command: clairs
     docker_image: hkubal/clairs:latest
     docker_command: /opt/bin/run_clairs
+  - command: rattle
+    docker_image: ghcr.io/bwbioinfo/rattle-docker-cwl:latest
+    docker_command: /opt/RATTLE/rattle
