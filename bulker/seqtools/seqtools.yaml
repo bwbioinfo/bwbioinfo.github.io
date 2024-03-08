@@ -26,3 +26,6 @@ manifest:
   - command: rattle
     docker_image: ghcr.io/bwbioinfo/rattle-docker-cwl:latest
     docker_command: /opt/RATTLE/rattle
+  - command: talon
+    docker_image: ghcr.io/bwbioinfo/talon-docker-cwl:latest
+    docker_command: talon
