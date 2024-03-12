@@ -32,3 +32,5 @@ manifest:
   - command: dorado
     docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
     docker_command: dorado
+    singularity_args: --nv
+    docker_args: --gpus all
