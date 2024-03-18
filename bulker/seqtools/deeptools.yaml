@@ -1,0 +1,52 @@
+manifest:
+  name: deeptools
+  version: 1.0.0
+  commands:
+  - command: multiBamSummary
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: multiBamSummary
+  - command: multiBigwigSummary
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: multiBigwigSummary
+  - command: plotCorrelation
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotCorrelation
+  - command: plotPCA
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotPCA
+  - command: plotFingerprint
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotFingerprint
+  - command: computeGCBias
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: computeGCBias
+  - command: correctGCBias
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: correctGCBias
+  - command: bamCoverage
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: bamCoverage
+  - command: bamCompare
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: bamCompare
+  - command: computeMatrix
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: computeMatrix
+  - command: plotHeatmap
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotHeatmap
+  - command: plotProfile
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotProfile
+  - command: plotCoverage
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotCoverage
+  - command: bamPEFragmentSize
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: bamPEFragmentSize
+  - command: plotEnrichment
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: plotEnrichment
+  - command: computeMatrixOperations
+    docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+    docker_command: computeMatrixOperations
