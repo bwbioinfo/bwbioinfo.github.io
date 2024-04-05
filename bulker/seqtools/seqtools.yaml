@@ -32,9 +32,6 @@ manifest:
   - command: harold
     docker_image: ghcr.io/bwbioinfo/harold-docker-cwl:latest
     docker_command: harold
-  - command: minimap
-    docker_image: ghcr.io/bwbioinfo/minimap2-docker-cwl:latest
-    docker_command: minimap2
   - command: dorado
     docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
     docker_command: dorado
