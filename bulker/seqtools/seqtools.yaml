@@ -29,9 +29,6 @@ manifest:
   - command: talon
     docker_image: ghcr.io/bwbioinfo/talon-docker-cwl:latest
     docker_command: talon
-  - command: harold
-    docker_image: ghcr.io/bwbioinfo/harold-docker-cwl:latest
-    docker_command: harold
   - command: dorado
     docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
     docker_command: dorado
