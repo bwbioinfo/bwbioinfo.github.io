@@ -35,6 +35,9 @@ manifest:
   - command: minimap2
     docker_image: ghcr.io/bwbioinfo/minimap2-docker-cwl:latest
     docker_command: minimap2
+  - command: pychopper
+    docker_image: docker pull ghcr.io/bwbioinfo/pychopper-docker-cwl:latest
+    docker_command: pychopper
   - command: dorado
     docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
     docker_command: dorado
