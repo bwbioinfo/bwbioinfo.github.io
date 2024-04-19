@@ -38,6 +38,9 @@ manifest:
   - command: pychopper
     docker_image: docker pull ghcr.io/bwbioinfo/pychopper-docker-cwl:latest
     docker_command: pychopper
+  - command: pod5
+    docker_image: docker pull ghcr.io/bwbioinfo/pod5-docker-cwl:latest
+    docker_command: pod5
   - command: dorado
     docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
     docker_command: dorado
