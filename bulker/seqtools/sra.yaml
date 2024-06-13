@@ -1,0 +1,10 @@
+manifest:
+  name: sra
+  version: 1.0.0
+  commands:
+  - command: prefetch
+    docker_image: ncbi/sra-tools
+    docker_command: prefetch
+  - command: fasterq-dump
+    docker_image: ncbi/sra-tools
+    docker_command: fasterq-dump
