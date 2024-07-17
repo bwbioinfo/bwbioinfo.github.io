@@ -46,3 +46,6 @@ manifest:
     docker_command: dorado
     singularity_args: --nv
     docker_args: --gpus all
+  - command: igblastn
+    docker_image: docker pull ghcr.io/bwbioinfo/igblast-docker-cwl:latest
+    docker_command: igblastn
