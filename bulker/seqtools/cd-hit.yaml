@@ -1,0 +1,43 @@
+manifest:
+  name: cd-hit
+  version: 1.0.0
+  commands:
+  - command: cd-hit
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit
+  - command: cd-hit-est
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-est
+  - command: cd-hit-2d
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-2d
+  - command: cd-hit-est-2d
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-est-2d 
+  - command: psi-cd-hit
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: psi-cd-hit  
+  - command: cd-hit-lap 
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-lap
+  - command: cd-hit-dup
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-dup
+  - command: cd-hit-454
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-454
+  - command: cd-hit-otu
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-otu
+  - command: cd-hit-para
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-para
+  - command: cd-hit-web
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: cd-hit-web
+  - command: scripts
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: scripts
+  - command: h-cd-hit
+    docker_image: ghcr.io/bwbioinfo/cd-hit-docker-cwl:latest
+    docker_command: h-cd-hit
