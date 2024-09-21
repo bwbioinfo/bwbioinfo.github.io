@@ -58,3 +58,12 @@ manifest:
   - command: mafft
     docker_image: ghcr.io/bwbioinfo/mafft-docker-cwl:latest
     docker_command: mafft
+  - command: geluster
+    docker_image: ghcr.io/bwbioinfo/geluster-docker-cwl:latest
+    docker_command: GeLuster
+  - command: gw
+    docker_image: ghcr.io/bwbioinfo/gw-docker-cwl:latest
+    docker_command: gw
+  - command: isoquant
+    docker_image: ghcr.io/bwbioinfo/isoquant-docker-cwl:latest
+    docker_command: isoquant.py
