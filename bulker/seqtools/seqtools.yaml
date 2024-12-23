@@ -73,3 +73,9 @@ manifest:
   - command: isonclust2
     docker_image: ghcr.io/bwbioinfo/isonclust2-docker-cwl:latest
     docker_command: isONclust2
+  - command: slow5tools
+    docker_image: ghcr.io/bwbioinfo/slow5tools-docker-cwl:latest
+    docker_command: slow5tools
+  - command: modkit
+    docker_image: ghcr.io/bwbioinfo/modkit:latest
+    docker_command: modkit
