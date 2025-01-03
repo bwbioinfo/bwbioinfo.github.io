@@ -1,1 +1,11 @@
-
+manifest:
+  name: sj
+  version: 1.0.0
+  commands:
+  - command: figenoc
+    docker_image: ghcr.io/bwbioinfo/figeno:latest
+    docker_command: figeno
+  - command: figenog
+    docker_image: ghcr.io/bwbioinfo/figeno:latest
+    docker_command: figeno gui -s --host 0.0.0.0 --port 5000 --debug
+    
