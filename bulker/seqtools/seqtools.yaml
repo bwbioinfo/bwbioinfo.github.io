@@ -2,80 +2,80 @@ manifest:
   name: seqtools
   version: 1.0.0
   commands:
-  - command: samtools
-    docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
-    docker_command: samtools
-  - command: samtools119
-    docker_image: ghcr.io/bwbioinfo/samtools-1.19.2-docker:latest
-    docker_command: samtools
-  - command: samtools117
-    docker_image: ghcr.io/bwbioinfo/samtools-1.17-docker:latest
-    docker_command: samtools
-  - command: bamstats
-    docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
-    docker_command: bamstats
-  - command: multimerge
-    docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
-    docker_command: multimerge
-  - command: seqkit
-    docker_image: ghcr.io/bwbioinfo/seqkit-docker-cwl:latest
-    docker_command: seqkit
-  - command: clairs
-    docker_image: hkubal/clairs:latest
-    docker_command: /opt/bin/run_clairs
-  - command: rattle
-    docker_image: ghcr.io/bwbioinfo/rattle-docker-cwl:latest
-    docker_command: /opt/RATTLE/rattle
-  - command: talon
-    docker_image: ghcr.io/bwbioinfo/talon-docker-cwl:latest
-    docker_command: talon
-  - command: harold
-    docker_image: ghcr.io/bwbioinfo/harold-docker-cwl:latest
-    docker_command: harold
-  - command: minimap2
-    docker_image: ghcr.io/bwbioinfo/minimap2-docker-cwl:latest
-    docker_command: minimap2
-  - command: pychopper
-    docker_image: ghcr.io/bwbioinfo/pychopper-docker-cwl:latest
-    docker_command: pychopper
-  - command: pod5
-    docker_image: ghcr.io/bwbioinfo/pod5-docker-cwl:latest
-    docker_command: pod5
-  - command: dorado
-    docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
-    docker_command: dorado
-    singularity_args: --nv
-    docker_args: --gpus all
-  - command: igblastn
-    docker_image: ghcr.io/bwbioinfo/igblast-docker-cwl:latest
-    docker_command: igblastn
-  - command: medaka
-    docker_image: ghcr.io/bwbioinfo/medaka-docker-cwl:latest
-    docker_command: medaka
-  - command: racon
-    docker_image: ghcr.io/bwbioinfo/racon-docker-cwl:latest
-    docker_command: racon
-  - command: mafft
-    docker_image: ghcr.io/bwbioinfo/mafft-docker-cwl:latest
-    docker_command: mafft
-  - command: geluster
-    docker_image: ghcr.io/bwbioinfo/geluster-docker-cwl:latest
-    docker_command: GeLuster
-  - command: gw
-    docker_image: ghcr.io/bwbioinfo/gw-docker-cwl:latest
-    docker_command: gw
-  - command: isoquant
-    docker_image: ghcr.io/bwbioinfo/isoquant-docker-cwl:latest
-    docker_command: isoquant.py
-  - command: isonclust
-    docker_image: ghcr.io/bwbioinfo/isonclust-docker-cwl:latest
-    docker_command: isonclust
-  - command: isonclust2
-    docker_image: ghcr.io/bwbioinfo/isonclust2-docker-cwl:latest
-    docker_command: isONclust2
-  - command: slow5tools
-    docker_image: ghcr.io/bwbioinfo/slow5tools-docker-cwl:latest
-    docker_command: slow5tools
-  - command: modkit
-    docker_image: ghcr.io/bwbioinfo/modkit:latest
-    docker_command: modkit
+    - command: samtools
+      docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
+      docker_command: samtools
+    - command: samtools119
+      docker_image: ghcr.io/bwbioinfo/samtools-1.19.2-docker:latest
+      docker_command: samtools
+    - command: samtools117
+      docker_image: ghcr.io/bwbioinfo/samtools-1.17-docker:latest
+      docker_command: samtools
+    - command: bamstats
+      docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
+      docker_command: bamstats
+    - command: multimerge
+      docker_image: ghcr.io/bwbioinfo/samtools-docker-cwl:latest
+      docker_command: multimerge
+    - command: seqkit
+      docker_image: ghcr.io/bwbioinfo/seqkit-docker-cwl:latest
+      docker_command: seqkit
+    - command: clairs
+      docker_image: hkubal/clairs:latest
+      docker_command: /opt/bin/run_clairs
+    - command: rattle
+      docker_image: ghcr.io/bwbioinfo/rattle-docker-cwl:latest
+      docker_command: /opt/RATTLE/rattle
+    - command: talon
+      docker_image: ghcr.io/bwbioinfo/talon-docker-cwl:latest
+      docker_command: talon
+    - command: harold
+      docker_image: ghcr.io/bwbioinfo/harold-docker-cwl:latest
+      docker_command: harold
+    - command: minimap2
+      docker_image: ghcr.io/bwbioinfo/minimap2-docker-cwl:latest
+      docker_command: minimap2
+    - command: pychopper
+      docker_image: ghcr.io/bwbioinfo/pychopper-docker-cwl:latest
+      docker_command: pychopper
+    - command: pod5
+      docker_image: ghcr.io/bwbioinfo/pod5-docker-cwl:latest
+      docker_command: pod5
+    - command: dorado
+      docker_image: ghcr.io/bwbioinfo/dorado-docker-cwl:latest
+      docker_command: dorado
+      singularity_args: --nv
+      docker_args: --gpus all
+    - command: igblastn
+      docker_image: ghcr.io/bwbioinfo/igblast-docker-cwl:latest
+      docker_command: igblastn
+    - command: medaka
+      docker_image: ghcr.io/bwbioinfo/medaka-docker-cwl:latest
+      docker_command: medaka
+    - command: racon
+      docker_image: ghcr.io/bwbioinfo/racon-docker-cwl:latest
+      docker_command: racon
+    - command: mafft
+      docker_image: ghcr.io/bwbioinfo/mafft-docker-cwl:latest
+      docker_command: mafft
+    - command: geluster
+      docker_image: ghcr.io/bwbioinfo/geluster-docker-cwl:latest
+      docker_command: GeLuster
+    - command: gw
+      docker_image: ghcr.io/bwbioinfo/gw-docker-cwl:latest
+      docker_command: gw
+    - command: isoquant
+      docker_image: ghcr.io/bwbioinfo/isoquant-docker-cwl:latest
+      docker_command: isoquant.py
+    - command: isonclust
+      docker_image: ghcr.io/bwbioinfo/isonclust-docker-cwl:latest
+      docker_command: isonclust
+    - command: isonclust2
+      docker_image: ghcr.io/bwbioinfo/isonclust2-docker-cwl:latest
+      docker_command: isONclust2
+    - command: slow5tools
+      docker_image: ghcr.io/bwbioinfo/slow5tools-docker-cwl:latest
+      docker_command: slow5tools
+    - command: modkit
+      docker_image: ghcr.io/bwbioinfo/modkit:latest
+      docker_command: modkit
