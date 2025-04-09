@@ -24,7 +24,7 @@ manifest:
       docker_image: ghcr.io/chusj-pigu/minimap2:latest
       docker_command: minimap2
     - command: deepvariant
-      docker_image: docker://google/deepvariant:1.8.0-gpu
+      docker_image: google/deepvariant:1.8.0-gpu
       docker_command: /opt/deepvariant/bin/run_deepvariant
       singularity_args: --nv
       docker_args: --gpus all
