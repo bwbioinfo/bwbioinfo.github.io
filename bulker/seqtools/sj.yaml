@@ -15,3 +15,8 @@ manifest:
     - command: gfatools
       docker_image: ghcr.io/chusj-pigu/gfatools:latest
       docker_command: gfatools
+    - command: dorado
+      docker_image: ghcr.io/chusj-pigu/dorado:latest
+      docker_command: dorado
+      singularity_args: --nv
+      docker_args: --gpus all
