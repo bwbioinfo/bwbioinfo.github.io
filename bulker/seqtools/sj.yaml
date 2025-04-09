@@ -20,3 +20,6 @@ manifest:
       docker_command: dorado
       singularity_args: --nv
       docker_args: --gpus all
+    - command: minimap2
+      docker_image: ghcr.io/chusj-pigu/minimap2:latest
+      docker_command: minimap2
