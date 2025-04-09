@@ -12,3 +12,6 @@ manifest:
     - command: hifiasm
       docker_image: ghcr.io/chusj-pigu/hifiasm:latest
       docker_command: hifiasm
+    - command: gfatools
+      docker_image: ghcr.io/chusj-pigu/gfatools:latest
+      docker_command: gfatools
