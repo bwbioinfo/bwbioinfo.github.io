@@ -29,7 +29,7 @@ manifest:
     - command: deepvariant-gpu
       docker_image: google/deepvariant:1.8.0-gpu
       docker_command: /opt/deepvariant/bin/run_deepvariant
-      singularity_args: --nv
+      singularity_args: --nv -B /usr/lib/locale/:/usr/lib/locale/
       docker_args: --gpus all
     - command: varlociraptor
       docker_image: ghcr.io/chusj-pigu/varlociraptor:latest
