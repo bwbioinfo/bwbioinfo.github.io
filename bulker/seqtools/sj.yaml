@@ -40,3 +40,12 @@ manifest:
     - command: bedtools
       docker_image: ghcr.io/chusj-pigu/bedtools:latest
       docker_command: bedtools
+    - command: bcftools
+      docker_image: ghcr.io/chusj-pigu/bcftools:latest
+      docker_command: bcftools
+    - command: bgzip
+      docker_image: biocontainers/htslib:1.20--h5efdd21_2
+      docker_command: bgzip
+    - command: tabix
+      docker_image: biocontainers/htslib:1.20--h5efdd21_2
+      docker_command: tabix
