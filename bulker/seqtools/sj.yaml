@@ -37,3 +37,6 @@ manifest:
     - command: dep
       docker_image: ghcr.io/chusj-pigu/dep:latest
       docker_command: bamdep
+    - command: bedtools
+      docker_image: ghcr.io/chusj-pigu/bedtools:latest
+      docker_command: bedtools
