@@ -49,3 +49,6 @@ manifest:
     - command: tabix
       docker_image: biocontainers/htslib:1.20--h5efdd21_2
       docker_command: tabix
+    - command: snpeff
+      docker_image: ghcr.io/chusj-pigu/snpeff:latest
+      docker_command: snpeff
