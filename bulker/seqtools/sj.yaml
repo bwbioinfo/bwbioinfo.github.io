@@ -55,3 +55,6 @@ manifest:
     - command: snpsift
       docker_image: ghcr.io/chusj-pigu/snpeff:latest
       docker_command: java -jar /opt/app/snpEff/SnpSift.jar
+    - command: wiggletools
+      docker_image: ensemblorg/wiggletools:latest
+      docker_command: wiggletools
