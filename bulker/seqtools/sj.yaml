@@ -51,7 +51,7 @@ manifest:
       docker_command: tabix
     - command: snpeff
       docker_image: ghcr.io/chusj-pigu/snpeff:latest
-      docker_command: java -jar snpEff.jar
+      docker_command: java -jar /opt/app/snpEff/snpEff.jar
     - command: snpsift
       docker_image: ghcr.io/chusj-pigu/snpeff:latest
-      docker_command: java -jar SnpSift.jar
+      docker_command: java -jar /opt/app/snpEff/SnpSift.jar
