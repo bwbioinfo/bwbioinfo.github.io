@@ -61,12 +61,9 @@ manifest:
     - command: sniffles
       docker_image: ensemblorg/sniffles:latest
       docker_command: sniffles
-    - command: plotCoverage
+    - command: deeptools
       docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
-      docker_command: plotCoverage
-    - command: plotCorrelation
-      docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
-      docker_command: plotCorrelation
-    - command: bamCoverage
+      docker_command: deeptools
+    - command: mosdepth
       docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
       docker_command: bamCoverage
