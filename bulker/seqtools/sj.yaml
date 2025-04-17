@@ -58,3 +58,15 @@ manifest:
     - command: wiggletools
       docker_image: ensemblorg/wiggletools:latest
       docker_command: wiggletools
+    - command: sniffles
+      docker_image: ensemblorg/sniffles:latest
+      docker_command: sniffles
+    - command: plotCoverage
+      docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+      docker_command: plotCoverage
+    - command: plotCorrelation
+      docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+      docker_command: plotCorrelation
+    - command: bamCoverage
+      docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
+      docker_command: bamCoverage
