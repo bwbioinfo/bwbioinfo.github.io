@@ -67,3 +67,6 @@ manifest:
     - command: mosdepth
       docker_image: ghcr.io/bwbioinfo/deeptools-docker-cwl:latest
       docker_command: bamCoverage
+    - command: dar
+      docker_image: ghcr.io/chusj-pigu/dar:latest
+      docker_command: dar
