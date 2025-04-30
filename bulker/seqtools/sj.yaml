@@ -70,3 +70,6 @@ manifest:
     - command: dar
       docker_image: ghcr.io/chusj-pigu/dar:latest
       docker_command: dar
+    - command: qdnaseq
+      docker_image: ghcr.io/chusj-pigu/qdnaseq:latest
+      docker_command: call_qdnaseq.R
