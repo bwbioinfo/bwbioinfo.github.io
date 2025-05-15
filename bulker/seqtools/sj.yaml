@@ -76,3 +76,6 @@ manifest:
     - command: gxf2bed
       docker_image: ghcr.io/chusj-pigu/gxf2bed:latest
       docker_command: gxf2bed
+    - command: cramino
+      docker_image: ghcr.io/cramino/gxf2bed:latest
+      docker_command: cramino
