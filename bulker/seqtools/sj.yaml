@@ -79,3 +79,6 @@ manifest:
     - command: cramino
       docker_image: ghcr.io/chusj-pigu/cramino:latest
       docker_command: cramino
+    - command: ontime
+      docker_image: ghcr.io/chusj-pigu/ontime:latest
+      docker_command: ontime
