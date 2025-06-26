@@ -82,3 +82,9 @@ manifest:
     - command: ontime
       docker_image: ghcr.io/chusj-pigu/ontime:latest
       docker_command: ontime
+    - command: alignoth
+      docker_image: ghcr.io/chusj-pigu/alignoth:latest
+      docker_command: alignoth
+    - command: perbase
+      docker_image: ghcr.io/chusj-pigu/perbase:latest
+      docker_command: perbase
