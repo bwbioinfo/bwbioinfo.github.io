@@ -90,7 +90,7 @@ manifest:
       docker_command: perbase
     - command: marlin
       docker_image: ghcr.io/chusj-pigu/marlin:latest
-      docker_command: marlin
+      docker_command: /opt/MARLIN/MARLIN_realtime/0_real_time_prediction_main.sh
     - command: marlin_rt
       docker_image: ghcr.io/chusj-pigu/marlin:latest
-      docker_command: marlin_rt
+      docker_command: /opt/MARLIN/MARLIN_realtime/1_process_live.sh
