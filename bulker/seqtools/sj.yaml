@@ -93,4 +93,4 @@ manifest:
       docker_command: marlin
     - command: marlin_rt
       docker_image: ghcr.io/chusj-pigu/marlin:latest
-      docker_command: marlin_
+      docker_command: marlin_rt
