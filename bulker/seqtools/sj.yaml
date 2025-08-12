@@ -3,10 +3,10 @@ manifest:
   version: 1.0.0
   commands:
     - command: figenoc
-      docker_image: ghcr.io/bwbioinfo/figeno:latest
+      docker_image: ghcr.io/chusj-pigu/figeno:latest
       docker_command: figeno
     - command: figenog
-      docker_image: ghcr.io/bwbioinfo/figeno:latest
+      docker_image: ghcr.io/chusj-pigu/figeno:latest
       docker_command: figeno gui -s --host 0.0.0.0 --port 5000 --debug
       docker_args: "-p 5900:5000"
     - command: hifiasm
