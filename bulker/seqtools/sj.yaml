@@ -96,7 +96,7 @@ manifest:
       docker_image: ghcr.io/chusj-pigu/marlin:latest
       docker_command: /opt/MARLIN/MARLIN_realtime/1_process_live.sh
       singularity_args: --contain
-    - command: pmfret
+    - command: pomfret
       docker_image: ghcr.io/chusj-pigu/pomfret:latest
       docker_command: pomfret
       singularity_args: --contain
