@@ -104,3 +104,9 @@ manifest:
       docker_image: ghcr.io/chusj-pigu/bwa-mem2:latest
       docker_command: bwa-mem2
       singularity_args: --contain
+    - command: modkit
+      docker_image: ghcr.io/chusj-pigu/modkit:latest
+      docker_command: modkit
+    - command: samtools
+      docker_image: ghcr.io/chusj-pigu/samtools:latest
+      docker_command: samtools
