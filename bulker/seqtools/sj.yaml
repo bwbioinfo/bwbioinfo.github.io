@@ -100,3 +100,7 @@ manifest:
       docker_image: ghcr.io/chusj-pigu/pomfret:latest
       docker_command: pomfret
       singularity_args: --contain
+    - command: bwa-mem2
+      docker_image: ghcr.io/chusj-pigu/bwa-mem2:latest
+      docker_command: bwa-mem2
+      singularity_args: --contain
