@@ -103,7 +103,6 @@ manifest:
     - command: bwa-mem2
       docker_image: ghcr.io/chusj-pigu/bwa-mem2:latest
       docker_command: bwa-mem2
-      singularity_args: --contain
     - command: modkit
       docker_image: ghcr.io/chusj-pigu/modkit:latest
       docker_command: modkit
