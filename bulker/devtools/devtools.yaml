@@ -1,0 +1,10 @@
+manifest:
+  name: nf
+  version: 1.0.0
+  commands:
+    - command: nextflow
+      docker_image: nfcore/
+      docker_command: nextflow
+    - command: nf-core
+      docker_image: nfcore/tools
+      docker_command: nf-core
