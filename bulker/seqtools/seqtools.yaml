@@ -80,5 +80,5 @@ manifest:
       docker_image: ghcr.io/bwbioinfo/modkit:latest
       docker_command: modkit
     - command: gffread
-      docker_image: biocontainers/gffread:0.12.7--h15c41c6_0
+      docker_image: quay.io/biocontainers/gffread:0.12.7--h077b44d_6
       docker_command: gffread
