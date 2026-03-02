@@ -8,3 +8,6 @@ manifest:
     - command: nf-core
       docker_image: nfcore/tools
       docker_command: nf-core
+    - command: nf-test
+      docker_image: nfcore/tools
+      docker_command: nf-test
